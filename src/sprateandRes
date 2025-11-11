@@ -1,0 +1,12 @@
+// sprad operator
+
+const friends = ['Rahim', 'karim']
+
+const schoolFriends = ['pintu', 'mintu', 'bulbul'];
+
+const collegeFriend = ['abid', 'adit', 'arif'];
+
+friends.push(...schoolFriends);
+friends.push(...collegeFriend);
+
+console.log(friends);
